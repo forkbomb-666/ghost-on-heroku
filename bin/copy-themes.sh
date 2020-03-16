@@ -1,4 +1,5 @@
 themes=(
+	simply
 	casper
 	attila
 	london
