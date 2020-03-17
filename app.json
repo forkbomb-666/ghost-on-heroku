@@ -16,6 +16,10 @@
     "APP_PUBLIC_URL": {
       "description": "The HTTPS URL of this app: either your custom domain or default 'herokuapp.com' hostname.",
       "value": "https://YOURAPPNAME.herokuapp.com"
+    },
+    "MYSQL_DATABASE_URL": {
+      "description": "(optional) Remote MySQL URL if you don't want to use the free JawsDB heroku plugin (only 5MB database storage)",
+      "required": false
     }
   }
 }
