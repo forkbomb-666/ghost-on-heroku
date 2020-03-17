@@ -13,7 +13,7 @@
     "ghost": "^3.11.0",
     "mysql": "^2.18.1",
     "ghost-storage-cloudinary": "^2.1.1",
-    "simply": "github:godofredoninja/simply#0.2.7",
+    "simply": "github:forkbomb-666/simply#1.0.1",
     "attila": "github:zutrinken/attila#2.0.2",
     "bleak": "github:zutrinken/bleak#1.5.0",
     "casper": "github:tryghost/Casper#3.0.9",
