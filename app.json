@@ -8,10 +8,9 @@
   },
   "success_url": "/ghost",
   "addons": [
-    "jawsdb",
-    "mailgun",
     "cloudinary"
   ],
+
   "env": {
     "APP_PUBLIC_URL": {
       "description": "The HTTPS URL of this app: either your custom domain or default 'herokuapp.com' hostname.",
@@ -19,7 +18,15 @@
     },
     "MYSQL_DATABASE_URL": {
       "description": "(optional) Remote MySQL URL if you don't want to use the free JawsDB heroku plugin (only 5MB database storage)",
-      "required": false
+      "required": true
+    },
+    "MAILGUN_SMTP_LOGIN": {
+      "description": "Mailgun SMTP Username",
+      "required": true
+    },
+    "MAILGUN_SMTP_PASSWORD": {
+      "description": "Mailgun SMTP Password",
+      "required": true
     }
   }
 }

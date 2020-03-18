@@ -7,8 +7,8 @@ themes=(
 	bleak
 	the-shell
 	vapor
-        pico
-        lyra
+    pico
+    lyra
 	liebling
 )
 
